@@ -9,11 +9,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Intent-Demo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
 
     <EditText
         android:id="@+id/plain_text_input"
@@ -21,15 +22,17 @@
         android:layout_height="wrap_content"
         android:inputType="text"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="438dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="448dp" />
 
     <Button
         android:id="@+id/button_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/self_destruct"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="557dp" />
+        android:text="New App"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="538dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
